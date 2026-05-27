@@ -8,6 +8,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
     origin: "https://interview-ai-5gy9-udhaykiran1427s-projects.vercel.app",
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }))
 
